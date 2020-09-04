@@ -1,0 +1,72 @@
+body{
+    height: 100%;
+    margin: 0;
+    color: #666;
+    font-size: 18px;
+    line-height: 1.5em;
+    font-family: "Lato",sans-serif;
+}
+.pimg1, .pimg2, .pimg3, .pimg4{
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.pimg1{
+    background-image: url(./img/image1.jpg);
+    height: 45em;
+}
+.pimg2{
+    background-image: url(./img/image2.jpg);
+    min-height: 400px;
+}
+.pimg3{
+    background-image: url(./img/image3.jpg);
+    min-height: 400px;
+}
+.pimg4{
+    background-image: url(./img/image4.jpg);
+    min-height: 420px;
+}
+.section{
+    text-align: center;
+    padding: 10px 60px;
+}
+.section-light{
+    background-color: #f4f4f4;
+    color: #666;
+}
+.section-dark{
+    background-color: #262626;
+    color: aliceblue;
+}
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-family:  'Dancing Script', cursive;
+    font-size: 27px;
+    letter-spacing: 5px;
+}
+.ptext1{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    padding-left: 5px;
+    text-align: center;
+    font-family:  'Dancing Script', cursive;
+    font-size: 29px;
+    letter-spacing: 5px;
+}
+.ptext .border{
+    background-color: #111;
+    color: lightgrey;
+    padding: 20px;
+}
+.ptext1 .border-trans{
+    background-color: transparent;
+    color: rgb(255, 255, 43);
+}
